@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Baskerville";
+    src: url('../fonts/LibreBaskerville-Regular.otf')}
+.main-nav li{
+display:inline;
+}
+.main-nav ul{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+.center {
+margin-left:auto;
+margin-right:auto;
+width:20%;
+}
