@@ -1,3 +1,4 @@
+@import url("reset.css")
 @font-face {
     font-family: "Baskerville-Libre";
     src: url('../fonts/LibreBaskerville-Regular.otf')
@@ -8,7 +9,8 @@ body {
     color:darkRed;
     font-family:"Baskerville-Libre"}
 h1 {
-    font-size:700%;
+    font-size:50px;
+    line-height:0.75em;
     margin-bottom:-25px;
 }
 
@@ -22,7 +24,7 @@ header {
     padding:0;
     text-align:center;
     position:fixed;
-    width:80%;
+    width:100%;
     top:-30px;
 }
 .main-nav a {
@@ -47,10 +49,9 @@ header {
     width:80%;
 }
 #welcome {
-    background-color:#fffaf0;
-    height:800px;
-    margin-top:10px;
-    border-radius:20px;
+    background-color:#FF8247;
+    height:300px;
+    margin-top:70px;
 }
 #welcome p {
     margin-left:auto;
@@ -58,15 +59,10 @@ header {
     width:28%;
 }
 #welcome h1 {
-    margin-left:auto;
-    margin-right:auto;
-    padding-top:150px;
-    width:28%;
 }
 #about {
     background-color:#8b8878;
     height:800px;
-    border-radius:20px;
 }
 #about h1 {
 padding-top: 60px;}
@@ -74,7 +70,6 @@ padding-top: 60px;}
 #skills {
     background-color:#99CDC9;
     height:800px;
-    border-radius:20px;
 }
 #skills h1 {
 padding-top: 60px;
