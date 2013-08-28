@@ -1,0 +1,14 @@
+|-Finish initial design
+|-Add content
+|    |-Welcome Section
+|    |-About Section
+|    |-Skills Section
+|    |-Contact Section
+|        |-Add contact form 
+|            |-Style nicely with javascript
+|            |-Auto-response?
+|-Add Cool Parallax effects
+|-Optimize Site
+    |-Mobile
+    |-IE/Cross-browser support
+    |-Fluid layout?
