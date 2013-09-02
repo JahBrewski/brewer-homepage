@@ -1,4 +1,4 @@
-@import url("reset.css")
+@import url("css/reset.css");
 @font-face {
     font-family: "Baskerville-Libre";
     src: url('../fonts/LibreBaskerville-Regular.otf')
@@ -20,22 +20,18 @@ height:100%;
 width:100%;
 }
 
+#parent {height: 250px;}
 
 #main-nav-floater {
 float: left;
 height: 50%;
+margin-bottom: -50px;
 width: 100%;
-margin-bottom:-25px;
 }
 
-.main-nav {
-    clear:both;
-    list-style:none;
-    font-family: 'Baskerville-Libre';
-    font-size:200%;
-    height:50px;
-    text-align:center;
-    width:100%;
+#main-nav {
+    clear: both;
+    height:100px;
 }
 .main-nav a {
     color:#fffaf0;
