@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
         $('a[href^="#"]').on('click',function (e) {
             e.preventDefault();
 
@@ -12,26 +13,19 @@ $(document).ready(function(){
             });
         });
 
-        function moveScroller() {
-            var move = function() {
-                var st = $(window).scrollTop();
-                var ot = $("#scroller-anchor").offset().top;
-                var s = $("#scroller");
-                if(st > ot) {
-                    s.css({
-                        position: "fixed",
-                        top: "0px"
-                    });
-                } else {
-                    if(st <= ot) {
-                        s.css({
-                            position: "relative",
-                            top: ""
-                        });
-                    }
-                }
-            };
-            $(window).scroll(move);
-            move();
+        var $navigation= $(".main-nav"),
+                $window    = $(window),
+                offset     = $navigation.offset(),
+                topPadding = 15;
+
+
+        $window.scroll(function() {
+                if ($window.scrollTop() > offset.top) {
+                $navigation.addClass('fixed');
+        } else {
+                $navigation.removeClass('fixed');
         }
+    });
+ 
+
 });
