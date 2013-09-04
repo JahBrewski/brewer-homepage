@@ -45,7 +45,7 @@ $(document).ready(function(){
           );
         }
             function checkAnimation() {
-        $('.html-css').each(function() {
+        $('.html-css, .jquery, .java, .php, .ruby, .mysql, .git, .cli').each(function() {
             if (!$(this).hasClass('start') && elementInViewport(this)) {
                 $(this).addClass('start');
             }

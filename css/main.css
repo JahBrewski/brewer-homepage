@@ -145,6 +145,17 @@ width:30%;
 margin:15px;
 }
 
+.skillset-container {
+    margin-top: 50px;
+    padding: 2%;
+    float: left;
+}
+
+.skillset-container h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
 .skillset {
     height: 30px;
     background-color: #2c5640;
@@ -182,7 +193,218 @@ margin:15px;
     }
 }
 
+.jquery{
+    height: 100%;
+    width: 30%;
+    background-color: #FFB03B;
+}
 
+.jquery.start {
+    -webkit-animation: jquery 2s;
+    -moz-animation: jquery 2s;
+    -o-animation: jquery 2s;
+    animation: jquery 2s;
+}
+
+@-moz-keyframes jquery{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+@-webkit-keyframes jquery{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+.java{
+    height: 100%;
+    width: 60%;
+    background-color: #FFB03B;
+}
+
+.java.start {
+    -webkit-animation: java 2s;
+    -moz-animation: java 2s;
+    -o-animation: java 2s;
+    animation: java 2s;
+}
+
+@-moz-keyframes java{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@-webkit-keyframes java{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+.php{
+    height: 100%;
+    width: 30%;
+    background-color: #FFB03B;
+}
+
+.php.start {
+    -webkit-animation: php 2s;
+    -moz-animation: php 2s;
+    -o-animation: php 2s;
+    animation: php 2s;
+}
+
+@-moz-keyframes php{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+@-webkit-keyframes php{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+.ruby{
+    height: 100%;
+    width: 60%;
+    background-color: #FFB03B;
+}
+
+.ruby.start {
+    -webkit-animation: ruby 2s;
+    -moz-animation: ruby 2s;
+    -o-animation: ruby 2s;
+    animation: ruby 2s;
+}
+
+@-moz-keyframes ruby{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@-webkit-keyframes ruby{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+.mysql{
+    height: 100%;
+    width: 40%;
+    background-color: #FFB03B;
+}
+
+.mysql.start {
+    -webkit-animation: mysql 2s;
+    -moz-animation: mysql 2s;
+    -o-animation: mysql 2s;
+    animation: mysql 2s;
+}
+
+@-moz-keyframes mysql{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+@-webkit-keyframes mysql{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+.git{
+    height: 100%;
+    width: 70%;
+    background-color: #FFB03B;
+}
+
+.git.start {
+    -webkit-animation: git 2s;
+    -moz-animation: git 2s;
+    -o-animation: git 2s;
+    animation: git 2s;
+}
+
+@-moz-keyframes git{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@-webkit-keyframes git{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+.cli{
+    height: 100%;
+    width: 80%;
+    background-color: #FFB03B;
+}
+
+.cli.start {
+    -webkit-animation: cli 2s;
+    -moz-animation: cli 2s;
+    -o-animation: cli 2s;
+    animation: cli 2s;
+}
+
+@-moz-keyframes cli{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes cli{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
 #contact {
     background-color:#ecc3bf;
     background: url("/img/delmar-loop.png") no-repeat center center fixed;
