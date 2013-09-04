@@ -157,6 +157,32 @@ margin:15px;
     background-color: #FFB03B;
 }
 
+.html-css.start {
+    -webkit-animation: html-css 2s;
+    -moz-animation: html-css 2s;
+    -o-animation: html-css 2s;
+    animation: html-css 2s;
+}
+
+@-moz-keyframes html-css{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes html-css{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+
 #contact {
     background-color:#ecc3bf;
     background: url("/img/delmar-loop.png") no-repeat center center fixed;
