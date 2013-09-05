@@ -134,12 +134,13 @@ top: 0;
 
 #skills {
     background-color:#468966;
-    height: 800px;
+    height: 1000px;
 }
 
 #skills h1 { padding-top: 60px; }
 
 #skills img {
+padding-top: 40px;
 float:left;
 width:30%;
 margin:15px;
@@ -422,3 +423,4 @@ padding-top: 60px
 
 .top-padding { padding-top: 7% }
 .center { text-align: center }
+.cf { clear: both; }
