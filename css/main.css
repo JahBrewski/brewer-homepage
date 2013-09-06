@@ -449,21 +449,20 @@ padding-bottom: 40px;
 }
 
 #contact-area {
-width: 45%;
+width: 50%;
 float: left;
 }
 
 #contact-image {
-display: table-cell;
-vertical-align: middle;
-margin: 0 auto;
-width: 45%;
+width: 50%;
 float: right;
+text-align: center;
 }
 
 #contact-image img {
-    max-width: 90%;
-    display: cell;
+    margin-top: 20px;
+    max-width: 70%;
+    display: inline-block;
 }
 
 #container-input {
@@ -485,7 +484,7 @@ label {
 input, textarea {
         font-family: 'Roboto', sans-serif;
         display: block;
-        width:100%;
+        width:80%;
         height:27px;
         background:#efefef;
         border:1px solid #dedede;
