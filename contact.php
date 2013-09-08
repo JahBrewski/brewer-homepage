@@ -2,7 +2,7 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $from = 'From: '.$email; 
+    $from = $email; 
     $to = 'joelbrewer01@gmail.com'; 
     $subject = 'Hello';
     $human = $_POST['human'];
