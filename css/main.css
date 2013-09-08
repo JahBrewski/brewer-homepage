@@ -13,6 +13,10 @@ body, html {
    }
 
 h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 125px;
     margin-top:0;
     font-size:80px;
     line-height:0.75em;
@@ -96,13 +100,12 @@ top: 0;
 
 #about {
     background-color:#8b8878;
-    height:800px;
+    height: 1000px;
     background: url("/img/wicker-park.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height:100%;
 }
 
 .container-floater {
@@ -118,6 +121,7 @@ top: 0;
 }
 
 .container-content {
+    max-width: 1000px;
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -142,21 +146,13 @@ top: 0;
     color: white;
 }
 
-.container-content h1 {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-align: center;
-    padding-top: 80px;
-}
 
 .border { border: solid 1.5px white; }
 
 #skills {
     background-color:#468966;
-    height: 100%;
+    height: 1000px;
 }
-
-#skills h1 { padding-top: 60px; }
 
 .container-table {
     margin: 0 auto;
@@ -168,12 +164,11 @@ top: 0;
     border: solid 15px #468966;
     display: inline-block;
     width: 25%;
-    height: 200px;
 }
 
 .container-example img {
     max-width: 100%;
-    height: 200px;
+    height: auto;
 }
 
 
@@ -460,12 +455,7 @@ top: 0;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height:100%;
-}
-
-#contact h1 {
-padding-top: 60px;
-padding-bottom: 40px;
+    height: 1000px;
 }
 
 #contact-area {
@@ -475,6 +465,7 @@ float: left;
 
 #contact-image {
 width: 50%;
+padding-top: 5%;
 float: right;
 text-align: center;
 }
