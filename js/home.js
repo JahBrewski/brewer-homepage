@@ -1,6 +1,14 @@
 $(document).ready(function(){
 
-    //Scroll to tag
+    init();
+
+    function init() {
+        smoothScroll();
+        stickyNav();
+        displaySkillset();
+    }
+
+    function smoothScroll() {
         $('a[href^="#"]').on('click',function (e) {
             e.preventDefault();
             var target = this.hash,
@@ -11,20 +19,24 @@ $(document).ready(function(){
                 window.location.hash = target;
             });
         });
+    }
 
+    function stickyNav() {
         var $navigation= $(".main-nav"),
-                $window    = $(window),
-                offset     = $navigation.offset(),
-                topPadding = 15;
+            $window    = $(window),
+            offset     = $navigation.offset(),
+            topPadding = 15;
 
         $window.scroll(function() {
-                if ($window.scrollTop() > offset.top) {
+            if ($window.scrollTop() > offset.top) {
                 $navigation.addClass('fixed');
-        } else {
+            } else {
                 $navigation.removeClass('fixed');
-        }
-    });
+            }
+        });
+    }
 
+    function displaySkillset() {
         function elementInViewport(el) {
           var top = el.offsetTop;
           var left = el.offsetLeft;
@@ -36,7 +48,6 @@ $(document).ready(function(){
             top += el.offsetTop;
             left += el.offsetLeft;
           }
-
           return (
             top >= window.pageYOffset &&
             left >= window.pageXOffset &&
@@ -44,16 +55,20 @@ $(document).ready(function(){
             (left + width) <= (window.pageXOffset + window.innerWidth)
           );
         }
-            function checkAnimation() {
-        $('.html-css, .jquery, .java, .php, .ruby, .mysql, .git, .cli').each(function() {
-            if (!$(this).hasClass('start') && elementInViewport(this)) {
-                $(this).addClass('start');
-            }
-        });
-    }
+
+        function checkAnimation() {
+            $('.html-css, .jquery, .java, .php, .ruby, .mysql, .git, .cli').each(function() {
+                if (!$(this).hasClass('start') && elementInViewport(this)) {
+                    $(this).addClass('start');
+                }
+            });
+        }
+
         $(window).scroll(function() {
              checkAnimation();
          });
+
+    }
 
         var modal = (function(){
             var 
